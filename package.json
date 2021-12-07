@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "main": "./src/index.js",
   "repository": "https://github.com/textninja/learn-pixijs.git",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "author": "Joe Taylor <joe@textninja.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.7.1"
+  }
 }
