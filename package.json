@@ -1,0 +1,8 @@
+{
+  "name": "learn-pixijs",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/textninja/learn-pixijs.git",
+  "author": "Joe Taylor <joe@textninja.net>",
+  "license": "MIT"
+}
