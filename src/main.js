@@ -2,17 +2,12 @@ import spriteUrl from './sample.png';
 import './main.css';
 import * as pixi from 'pixi.js';
 
-// debugging in chrome console
-window.pixi = pixi;
-
 const width = 800;
 const height = 600;
 const app = new pixi.Application({ width: width, height: height, resolution: 2, antialiasing: true, autoDensity: true });
 
 const binaryStrip = Array.from({length: 400}, n => Math.random()*256|0);
 const dimFactor = binaryStrip.map(n => 1);
-
-const graphics = new pixi.Graphics;
 
 var c = document.createElement("canvas");
 const pixHeight = 5;
@@ -102,5 +97,4 @@ app.ticker.add((delta) => {
 
 });
 
-app.stage.addChild(graphics);
 document.body.append(app.view); 
