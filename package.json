@@ -11,6 +11,8 @@
   "author": "Joe Taylor <joe@textninja.net>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^27.4.3",
+    "jest-cli": "^27.4.3",
     "vite": "^2.7.1"
   },
   "dependencies": {
